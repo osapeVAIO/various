@@ -1,9 +1,17 @@
 package test;
 
+/**
+ * クラスから別のクラスのインスタンスを参照するソースコード 
+ * @author osamu
+ *
+ */
 public class Test {
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Student student = new Student();
 		Score score = new Score();
 		student.setScore(score);
