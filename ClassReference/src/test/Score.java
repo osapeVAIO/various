@@ -1,5 +1,10 @@
 package test;
 
+/**
+ * 
+ * @author osamu
+ *
+ */
 public class Score {
 	private int japanese;
 
